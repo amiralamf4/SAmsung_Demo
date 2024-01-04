@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.topper{
+    padding: 20px;
+    background-color: #37524a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+.topper:hover{
+    
+    .message{
+        color: #fffefe;
+       
+    }
+}
+.socialMedia{
+    margin-right: 30px;
+}
+.socialMedia a{
+    margin-left: 30px;
+    align-items: center;
+    color: rgb(245, 239, 239);
+}
+.message{
+    color: #35a29f;
+}
+.currency{
+    padding: 5px 5px;
+    margin-right: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.language{
+    margin-right: 30px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+.MainHader{
+    justify-content: space-between;
+    display: flex;
+    background-color: #304d44;
+    align-items: center;
+    padding: 20px;
+    transition: all ease-in-out 0.3s;
+}
+.MainHader:hover{
+    background-color: #22463b;
+}
+.logo{
+    margin-left: 30px;
+    color: #f8f9fa;
+    font-size: 20px;
+    font-weight: 200;
+}
+.seach{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 6px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.seach input{
+    border: none;
+    display: flex;
+    flex-grow: 1;
+    outline: none;
+    padding-left: 10px;
+
+}
+.seach button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+}
+.icon{
+    padding-right: 30px;
+}
+.icon a{
+    padding-right: 20px;
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #CCE5DF;
+    transition: all ease-in-out 0.5s;
+}
+.menu:hover{
+    background-color: #dbf3ff;
+}
+.menu a{
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    transition: all ease-in 0.3s;
+}
+.menu :hover{
+    color: #080808;
+    transform: scale(1.1);
+    text-decoration: underline 2px rgb(0, 187, 255);
+}
+.hero{
+   background-image: url(/phone/hero.jpg);
+   height: 410px;
+   margin: 0px;
+   background-position: center;
+   padding-right: 100px;
+   background-size: cover;
+}
+.content{
+    
+    padding: 100px;
+    color: rgb(0, 0, 0);
+}
+.content h3{
+    font-size: 40px;
+}
+.content p{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px ;
+}
+.learnMore{
+    text-decoration: underline solid rgb(0, 0, 0) 2px;
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    text-underline-position: under;
+    transition:all ease-in-out 0.3s;
+    }
+ .hero .Shop{
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all ease-in 0.3s;
+    cursor: pointer;
+    
+}
+.hero .Shop:hover{
+    background-color:#2b2b2b;
+    border-radius: 20px;
+    transform:scale(1.1); 
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+    padding-top: 10px;
+    align-items: center;
+    background-color:#f5f9f8;
+}
+.product{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #d3ebe4;
+    text-align: center;
+}
+.price{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buy{
+    background-color: #020202;
+    border: none;
+    border-radius: 5px;
+    font-weight:bold;
+    color: white;
+    padding: 5px 8px;
+    transition: all ease-in-out 0.3s;
+}
+.buy:hover{
+    transform: scale(1.07);
+    background-color:#2b2b2b;
+    cursor: pointer;
+}
+.product .imag{
+    border-radius: 10px;
+}
+.img1{
+    width: 165px;    
+    padding: 5px 5px;
+}
+.product .img4{
+    width: 145px;    
+}
+.img5{
+    width: 170px;
+}
+.img6{
+    width: 170px;
+}
+.img7{
+    width: 170px;
+}
+.img8{
+    width: 170px;
+}
+.img9{
+    width: 170px;
+}
+.img10{
+    width: 170px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto 100px;
+    padding: 20px;
+    background-color: #f9f5f5;
+    border-radius: 10px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+.test{
+    background-color: #F7F7F7;
+    padding: 40px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.471);
+    border-radius: 10px;
+}
+.ceo{
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.test.p{
+    padding: 10px;
+}
+.discount{
+    background-image: url(/phone/gird.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.471);
+}
+.cta{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cta a{
+    background-color: #b0daefb9;
+    padding: 40px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+.cta a h2{
+    margin: 10px 0;
+}
+.cta .new{
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.foot{
+    background-color: #5e5e5e;
+    padding: 40px;
+    align-items: center;
+}
+.con{
+    justify-content:space-between;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.con .logo{
+    color: rgb(179, 178, 178);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+
+}
+.con .logo:hover{
+    color: white;
+}
+.Foot-Menu ul{
+    display: flex;
+    font-size: 25px;
+    
+}
+.Foot-Menu ul li{
+    list-style: none;
+}
+.Foot-Menu ul li a{
+    color: rgb(179, 178, 178);
+    text-decoration: none;
+    margin-right: 0.5rem;
+    font-size:1.2rem;
+    transition: all ease-in-out 0.5s;
+}
+.Foot-Menu ul li a:hover{
+    color: white;
+}
+.Foot-Media{
+    font-size: 25px;
+    margin-right: 70px;
+    display: flex;
+}
+.Foot-Media a{
+    color: rgb(179, 178, 178);
+    margin-right: 1.1rem;
+    transition: all ease-in-out 0.5s;
+}
+.Foot-Media a:hover{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    color: rgb(179, 178, 178);
+    transition: all ease-in-out 0.5s;
+}
+.copyright a{
+    color: rgb(179, 178, 178);
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+}
+.copyright:hover{
+    color: white;
+}
+.copyright a:hover{
+    color: white;
+}
